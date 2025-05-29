@@ -1,12 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using my_web_api.Data;
 using my_web_api.Models;
+using System.Linq;
 
 namespace my_web_api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class AboutController : Controller
+    public class AboutController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
         public AboutController(ApplicationDbContext context)
@@ -17,8 +18,17 @@ namespace my_web_api.Controllers
         [HttpGet]
         public IActionResult GetAbout()
         {
-            var about = _context.AboutMe.ToList();
-            //var json = System.Text.Json.JsonSerializer.Serialize(about);
+            var aboutList = _context.AboutMe.ToList();
+            return Ok(aboutList);
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult GetAboutById(int id)
+        {
+            var about = _context.AboutMe.FirstOrDefault(a => a.aboutMeId == id);
+            if (about == null)
+                return NotFound($"ID'si {id} olan kayıt bulunamadı.");
+
             return Ok(about);
         }
 
@@ -31,43 +41,39 @@ namespace my_web_api.Controllers
             _context.AboutMe.Add(newAbout);
             _context.SaveChanges();
 
-            return CreatedAtAction(nameof(GetAbout), new { id = newAbout.aboutMeId }, newAbout);
+            // CreatedAtAction ile yeni kaydın URL'si dönülür
+            return CreatedAtAction(nameof(GetAboutById), new { id = newAbout.aboutMeId }, newAbout);
         }
 
-        [HttpPut]
-        public IActionResult PutAbout([FromBody] AboutMe updatedAbout, int id)
+        [HttpPut("{id}")]
+        public IActionResult PutAbout(int id, [FromBody] AboutMe updatedAbout)
         {
             var existingAbout = _context.AboutMe.FirstOrDefault(a => a.aboutMeId == id);
-            if(existingAbout == null)
-            {
+            if (existingAbout == null)
                 return NotFound($"ID'si {id} olan kayıt bulunamadı.");
-            }
-            existingAbout.fullName = updatedAbout.fullName;
+
+            existingAbout.name = updatedAbout.name;
+            existingAbout.surname = updatedAbout.surname;
             existingAbout.title = updatedAbout.title;
             existingAbout.description = updatedAbout.description;
             existingAbout.profileImageUrl = updatedAbout.profileImageUrl;
-            existingAbout.location = updatedAbout.location;
-            existingAbout.email = updatedAbout.email;
             existingAbout.skills = updatedAbout.skills;
 
             _context.SaveChanges();
             return Ok(existingAbout);
-
         }
 
-        [HttpDelete]
-        public IActionResult DeleteAbout(int id) 
+        [HttpDelete("{id}")]
+        public IActionResult DeleteAbout(int id)
         {
             var existingAbout = _context.AboutMe.FirstOrDefault(a => a.aboutMeId == id);
             if (existingAbout == null)
-            {
                 return NotFound($"ID'si {id} olan kayıt bulunamadı.");
-            }
+
             _context.AboutMe.Remove(existingAbout);
             _context.SaveChanges();
 
             return Ok($"ID'si {id} olan kayıt başarıyla silindi.");
-
         }
     }
 }
