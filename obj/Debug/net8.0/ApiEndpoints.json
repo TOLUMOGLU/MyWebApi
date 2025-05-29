@@ -27,21 +27,37 @@
   },
   {
     "ContainingType": "my_web_api.Controllers.AboutController",
+    "Method": "GetAboutById",
+    "RelativePath": "api/About/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "my_web_api.Controllers.AboutController",
     "Method": "PutAbout",
-    "RelativePath": "api/About",
+    "RelativePath": "api/About/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "updatedAbout",
-        "Type": "my_web_api.Models.AboutMe",
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       },
       {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
+        "Name": "updatedAbout",
+        "Type": "my_web_api.Models.AboutMe",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -49,7 +65,7 @@
   {
     "ContainingType": "my_web_api.Controllers.AboutController",
     "Method": "DeleteAbout",
-    "RelativePath": "api/About",
+    "RelativePath": "api/About/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -57,7 +73,7 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
