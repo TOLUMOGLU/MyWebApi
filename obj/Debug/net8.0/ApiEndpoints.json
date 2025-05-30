@@ -211,27 +211,6 @@
   },
   {
     "ContainingType": "my_web_api.Controllers.EducationController",
-    "Method": "PutEducation",
-    "RelativePath": "api/Education",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "updatedEducation",
-        "Type": "my_web_api.Models.Education",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "my_web_api.Controllers.EducationController",
     "Method": "DeleteEducation",
     "RelativePath": "api/Education",
     "HttpMethod": "DELETE",
@@ -242,6 +221,27 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "my_web_api.Controllers.EducationController",
+    "Method": "PutEducation",
+    "RelativePath": "api/Education/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedEducation",
+        "Type": "my_web_api.Models.Education",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -275,7 +275,7 @@
   {
     "ContainingType": "my_web_api.Controllers.ExperienceController",
     "Method": "PutExperience",
-    "RelativePath": "api/Experience",
+    "RelativePath": "api/Experience/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -283,7 +283,7 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       },
       {
         "Name": "updatedExperience",
@@ -296,7 +296,7 @@
   {
     "ContainingType": "my_web_api.Controllers.ExperienceController",
     "Method": "DeleteExperience",
-    "RelativePath": "api/Experience",
+    "RelativePath": "api/Experience/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -304,7 +304,7 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
