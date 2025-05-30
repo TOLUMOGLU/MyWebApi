@@ -2,17 +2,22 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using my_web_api.Models;
+using System.Collections.Generic;
 
 namespace my_web_api.Data
 {
     public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-        : base(options)
+            : base(options)
         {
-
         }
+
         public DbSet<AboutMe> AboutMe { get; set; }
+        public DbSet<Project> Projects { get; set; }
+        public DbSet<ContactMessage> ContactMessages { get; set; }
+        public DbSet<Education> Education { get; set; }
+        public DbSet<Experience> Experience { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -24,13 +29,11 @@ namespace my_web_api.Data
                 .Property(e => e.skills)
                 .HasConversion(converter);
 
+            modelBuilder.Entity<Experience>()
+                .Property(e => e.technologiesUsed)
+                .HasConversion(converter);
+
             base.OnModelCreating(modelBuilder);
         }
-        public DbSet<Project> Projects { get; set; }
-        public DbSet<ContactMessage> ContactMessages { get; set; }
-        public DbSet<Education> Education { get; set; }
-        public DbSet<Experience> Experience { get; set; }
-
-
     }
 }

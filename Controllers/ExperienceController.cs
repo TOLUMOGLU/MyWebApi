@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using my_web_api.Data;
 using my_web_api.Models;
+using System.Linq;
 
 namespace my_web_api.Controllers
 {
@@ -9,7 +10,8 @@ namespace my_web_api.Controllers
     [ApiController]
     public class ExperienceController : ControllerBase
     {
-        public readonly ApplicationDbContext _context;
+        private readonly ApplicationDbContext _context;
+
         public ExperienceController(ApplicationDbContext context)
         {
             _context = context;
@@ -26,7 +28,7 @@ namespace my_web_api.Controllers
         public IActionResult PostExperience([FromBody] Experience newExperience)
         {
             if (newExperience == null)
-                return BadRequest("AboutMe verisi boş olamaz.");
+                return BadRequest("Experience verisi boş olamaz.");
 
             _context.Experience.Add(newExperience);
             _context.SaveChanges();
@@ -34,14 +36,19 @@ namespace my_web_api.Controllers
             return CreatedAtAction(nameof(GetExperience), new { id = newExperience.experienceId }, newExperience);
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public IActionResult PutExperience(int id, [FromBody] Experience updatedExperience)
         {
+            if (updatedExperience == null || id != updatedExperience.experienceId)
+                return BadRequest("Geçersiz deneyim verisi.");
+
             var existingExperience = _context.Experience.FirstOrDefault(a => a.experienceId == id);
             if (existingExperience == null)
             {
                 return NotFound($"ID'si {id} olan kayıt bulunamadı.");
             }
+
+            // Var olan kaydı güncelle
             existingExperience.startDate = updatedExperience.startDate;
             existingExperience.endDate = updatedExperience.endDate;
             existingExperience.description = updatedExperience.description;
@@ -49,15 +56,15 @@ namespace my_web_api.Controllers
             existingExperience.jobTitle = updatedExperience.jobTitle;
             existingExperience.companyName = updatedExperience.companyName;
 
-            _context.Experience.Add(existingExperience);
             _context.SaveChanges();
-            return Ok();
+
+            return Ok(existingExperience);
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteExperience(int id)
         {
-            var existingExperience = _context.Experience.FirstOrDefault(a => a.experienceId.Equals(id));
+            var existingExperience = _context.Experience.FirstOrDefault(a => a.experienceId == id);
 
             if (existingExperience == null)
                 return NotFound($"ID'si {id} olan kayıt bulunamadı.");

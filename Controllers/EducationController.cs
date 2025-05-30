@@ -35,7 +35,7 @@ namespace my_web_api.Controllers
             return CreatedAtAction(nameof(GetEducation), new { id = newEducation.educationId }, newEducation);
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public IActionResult PutEducation(int id, [FromBody] Education updatedEducation)
         {
             var existingEducation = _context.Education.FirstOrDefault(a => a.educationId == id);
@@ -50,16 +50,15 @@ namespace my_web_api.Controllers
             existingEducation.schoolName = updatedEducation.schoolName;
             existingEducation.degree = updatedEducation.degree;
 
-            _context.Education.Add(existingEducation);
             _context.SaveChanges();
             return Ok();
-
         }
 
-        [HttpDelete]
+
+        [HttpDelete("{id}")]
         public IActionResult DeleteEducation(int id)
         {
-            var existingEducation = _context.Education.FirstOrDefault(a => a.educationId.Equals(id));
+            var existingEducation = _context.Education.FirstOrDefault(a => a.educationId == id);
 
             if (existingEducation == null)
                 return NotFound($"ID'si {id} olan kayıt bulunamadı.");
@@ -69,5 +68,6 @@ namespace my_web_api.Controllers
 
             return Ok($"ID'si {id} olan kayıt başarıyla silindi.");
         }
+
     }
 }
