@@ -30,10 +30,10 @@ namespace my_web_api.Controllers
             _context.Projects.Add(newProject);
             _context.SaveChanges();
 
-            return CreatedAtAction(nameof(GetProject), new { id = newProject.projectId}, newProject);
-        } 
+            return CreatedAtAction(nameof(GetProject), new { id = newProject.projectId }, newProject);
+        }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public IActionResult PutProject(int id , [FromBody] Project uptadeProject)
         {
             var existingProject = _context.Projects.FirstOrDefault(a => a.projectId == id);
@@ -48,12 +48,11 @@ namespace my_web_api.Controllers
             existingProject.createdAt = uptadeProject.createdAt;
             existingProject.category = uptadeProject.category;
 
-            _context.Projects.Add(existingProject);
             _context.SaveChanges();
             return Ok();
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteProject(int id) 
         {
             var existingProject = _context.Projects.FirstOrDefault(a => a.projectId.Equals(id));

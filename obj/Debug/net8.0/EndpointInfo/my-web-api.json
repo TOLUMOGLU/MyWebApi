@@ -545,7 +545,9 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/Project/{id}": {
       "put": {
         "tags": [
           "Project"
@@ -553,7 +555,8 @@
         "parameters": [
           {
             "name": "id",
-            "in": "query",
+            "in": "path",
+            "required": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -592,7 +595,8 @@
         "parameters": [
           {
             "name": "id",
-            "in": "query",
+            "in": "path",
+            "required": true,
             "schema": {
               "type": "integer",
               "format": "int32"
