@@ -39,7 +39,7 @@ namespace my_web_api.Controllers
         [HttpPut("{id}")]
         public IActionResult PutExperience(int id, [FromBody] Experience updatedExperience)
         {
-            if (updatedExperience == null || id != updatedExperience.experienceId)
+            if (updatedExperience == null)
                 return BadRequest("Geçersiz deneyim verisi.");
 
             var existingExperience = _context.Experience.FirstOrDefault(a => a.experienceId == id);
@@ -55,6 +55,7 @@ namespace my_web_api.Controllers
             existingExperience.location = updatedExperience.location;
             existingExperience.jobTitle = updatedExperience.jobTitle;
             existingExperience.companyName = updatedExperience.companyName;
+            existingExperience.technologiesUsed = updatedExperience.technologiesUsed;
 
             _context.SaveChanges();
 

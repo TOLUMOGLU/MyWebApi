@@ -10,7 +10,6 @@
         "dependencies": {
           "EntityFramework": "6.5.1",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.16",
-          "Microsoft.EntityFrameworkCore": "9.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.5",
           "Swashbuckle.AspNetCore": "6.6.2"

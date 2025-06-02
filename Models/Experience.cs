@@ -9,7 +9,7 @@
         public DateTime startDate { get; set; }
         public DateTime? endDate { get; set; }
         public string description { get; set; }
-        public List<string> technologiesUsed { get; set; }  
+        public List<string>? technologiesUsed { get; set; }  
     }
 
 }
