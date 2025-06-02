@@ -35,5 +35,8 @@ namespace my_web_api.Data
 
             base.OnModelCreating(modelBuilder);
         }
+
+        public DbSet<Skillset> Skillsets { get; set; }
+
     }
 }
