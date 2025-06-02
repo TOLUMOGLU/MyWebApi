@@ -40,11 +40,6 @@ namespace my_web_api.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateSkillset(int id, Skillset updatedSkillset)
         {
-            if (id != updatedSkillset.Id)
-            {
-                return BadRequest("ID uyuşmuyor.");
-            }
-
             var existing = await _context.Skillsets.FindAsync(id);
             if (existing == null)
             {
@@ -54,6 +49,7 @@ namespace my_web_api.Controllers
             existing.Title = updatedSkillset.Title;
             existing.Subtitle = updatedSkillset.Subtitle;
             existing.Description = updatedSkillset.Description;
+            existing.SkillsetUrl = updatedSkillset.SkillsetUrl;
             existing.Category = updatedSkillset.Category;
 
             _context.Skillsets.Update(existing);
