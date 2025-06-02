@@ -940,9 +940,6 @@
         "additionalProperties": false
       },
       "Skillset": {
-        "required": [
-          "title"
-        ],
         "type": "object",
         "properties": {
           "id": {
@@ -950,8 +947,8 @@
             "format": "int32"
           },
           "title": {
-            "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "subtitle": {
             "type": "string",

@@ -7,7 +7,6 @@ namespace my_web_api.Models
         [Key]
         public int Id { get; set; }
 
-        [Required]
         public string Title { get; set; }
 
         public string Subtitle { get; set; }
