@@ -1,12 +1,1258 @@
 {
   "Version": 1,
-  "Hash": "2xYGl6gKSd1iGKErW/JEArX0KNioVw+QE6uMNgo4VuQ=",
+  "Hash": "yvUtp5cmAVktWZWC8RoI93S3385yZ7ZX6oa5+HV4H3U=",
   "Source": "my-web-api",
   "BasePath": "_content/my-web-api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "my-web-api\\wwwroot",
+      "Source": "my-web-api",
+      "ContentRoot": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\",
+      "BasePath": "_content/my-web-api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845601758645324.jpg",
+      "SourceId": "my-web-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\",
+      "BasePath": "_content/my-web-api",
+      "RelativePath": "uploads/upload_638845601758645324#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aj86htfdtv",
+      "Integrity": "tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\upload_638845601758645324.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845602538827963.jpg",
+      "SourceId": "my-web-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\",
+      "BasePath": "_content/my-web-api",
+      "RelativePath": "uploads/upload_638845602538827963#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aj86htfdtv",
+      "Integrity": "tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\upload_638845602538827963.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845602701372285.jpg",
+      "SourceId": "my-web-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\",
+      "BasePath": "_content/my-web-api",
+      "RelativePath": "uploads/upload_638845602701372285#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aj86htfdtv",
+      "Integrity": "tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\upload_638845602701372285.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845604592262692.jpg",
+      "SourceId": "my-web-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\",
+      "BasePath": "_content/my-web-api",
+      "RelativePath": "uploads/upload_638845604592262692#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aj86htfdtv",
+      "Integrity": "tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\upload_638845604592262692.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845604804931188.jpg",
+      "SourceId": "my-web-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\",
+      "BasePath": "_content/my-web-api",
+      "RelativePath": "uploads/upload_638845604804931188#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aj86htfdtv",
+      "Integrity": "tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\upload_638845604804931188.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845606619905034.jpg",
+      "SourceId": "my-web-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\",
+      "BasePath": "_content/my-web-api",
+      "RelativePath": "uploads/upload_638845606619905034#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aj86htfdtv",
+      "Integrity": "tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\upload_638845606619905034.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845608013033726.jpg",
+      "SourceId": "my-web-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\",
+      "BasePath": "_content/my-web-api",
+      "RelativePath": "uploads/upload_638845608013033726#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aj86htfdtv",
+      "Integrity": "tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\upload_638845608013033726.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845608052669105.jpg",
+      "SourceId": "my-web-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\",
+      "BasePath": "_content/my-web-api",
+      "RelativePath": "uploads/upload_638845608052669105#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oaz1bb007w",
+      "Integrity": "EKD49+c3SaffhbWsEOqAn4/cu8UrIXG/xnTfkCrtETg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\upload_638845608052669105.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845610238108206.jpg",
+      "SourceId": "my-web-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\",
+      "BasePath": "_content/my-web-api",
+      "RelativePath": "uploads/upload_638845610238108206#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aj86htfdtv",
+      "Integrity": "tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\upload_638845610238108206.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845610373925139.jpg",
+      "SourceId": "my-web-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\",
+      "BasePath": "_content/my-web-api",
+      "RelativePath": "uploads/upload_638845610373925139#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aj86htfdtv",
+      "Integrity": "tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\upload_638845610373925139.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845616256093323.jpg",
+      "SourceId": "my-web-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\",
+      "BasePath": "_content/my-web-api",
+      "RelativePath": "uploads/upload_638845616256093323#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ivwirzltov",
+      "Integrity": "7m2Dn6/DZ951adpCW5TbHvog+FiLA5lkU0aQgL0D4gA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\upload_638845616256093323.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845623958742173.jpg",
+      "SourceId": "my-web-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\",
+      "BasePath": "_content/my-web-api",
+      "RelativePath": "uploads/upload_638845623958742173#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aj86htfdtv",
+      "Integrity": "tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\upload_638845623958742173.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/upload_638845601758645324.aj86htfdtv.jpg",
+      "AssetFile": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845601758645324.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 12:09:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aj86htfdtv"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/upload_638845601758645324.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/upload_638845601758645324.jpg",
+      "AssetFile": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845601758645324.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 12:09:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/upload_638845602538827963.aj86htfdtv.jpg",
+      "AssetFile": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845602538827963.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 12:10:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aj86htfdtv"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/upload_638845602538827963.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/upload_638845602538827963.jpg",
+      "AssetFile": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845602538827963.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 12:10:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/upload_638845602701372285.aj86htfdtv.jpg",
+      "AssetFile": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845602701372285.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 12:11:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aj86htfdtv"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/upload_638845602701372285.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/upload_638845602701372285.jpg",
+      "AssetFile": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845602701372285.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 12:11:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/upload_638845604592262692.aj86htfdtv.jpg",
+      "AssetFile": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845604592262692.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 12:14:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aj86htfdtv"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/upload_638845604592262692.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/upload_638845604592262692.jpg",
+      "AssetFile": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845604592262692.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 12:14:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/upload_638845604804931188.aj86htfdtv.jpg",
+      "AssetFile": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845604804931188.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 12:14:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aj86htfdtv"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/upload_638845604804931188.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/upload_638845604804931188.jpg",
+      "AssetFile": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845604804931188.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 12:14:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/upload_638845606619905034.aj86htfdtv.jpg",
+      "AssetFile": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845606619905034.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 12:17:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aj86htfdtv"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/upload_638845606619905034.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/upload_638845606619905034.jpg",
+      "AssetFile": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845606619905034.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 12:17:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/upload_638845608013033726.aj86htfdtv.jpg",
+      "AssetFile": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845608013033726.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 12:20:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aj86htfdtv"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/upload_638845608013033726.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/upload_638845608013033726.jpg",
+      "AssetFile": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845608013033726.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 12:20:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/upload_638845608052669105.jpg",
+      "AssetFile": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845608052669105.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37963"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EKD49+c3SaffhbWsEOqAn4/cu8UrIXG/xnTfkCrtETg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 12:20:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EKD49+c3SaffhbWsEOqAn4/cu8UrIXG/xnTfkCrtETg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/upload_638845608052669105.oaz1bb007w.jpg",
+      "AssetFile": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845608052669105.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37963"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EKD49+c3SaffhbWsEOqAn4/cu8UrIXG/xnTfkCrtETg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 12:20:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oaz1bb007w"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/upload_638845608052669105.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EKD49+c3SaffhbWsEOqAn4/cu8UrIXG/xnTfkCrtETg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/upload_638845610238108206.aj86htfdtv.jpg",
+      "AssetFile": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845610238108206.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 12:23:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aj86htfdtv"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/upload_638845610238108206.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/upload_638845610238108206.jpg",
+      "AssetFile": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845610238108206.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 12:23:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/upload_638845610373925139.aj86htfdtv.jpg",
+      "AssetFile": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845610373925139.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 12:23:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aj86htfdtv"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/upload_638845610373925139.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/upload_638845610373925139.jpg",
+      "AssetFile": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845610373925139.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 12:23:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/upload_638845616256093323.ivwirzltov.jpg",
+      "AssetFile": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845616256093323.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "384410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7m2Dn6/DZ951adpCW5TbHvog+FiLA5lkU0aQgL0D4gA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 12:33:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ivwirzltov"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/upload_638845616256093323.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7m2Dn6/DZ951adpCW5TbHvog+FiLA5lkU0aQgL0D4gA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/upload_638845616256093323.jpg",
+      "AssetFile": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845616256093323.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "384410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7m2Dn6/DZ951adpCW5TbHvog+FiLA5lkU0aQgL0D4gA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 12:33:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7m2Dn6/DZ951adpCW5TbHvog+FiLA5lkU0aQgL0D4gA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/upload_638845623958742173.aj86htfdtv.jpg",
+      "AssetFile": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845623958742173.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 12:46:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aj86htfdtv"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/upload_638845623958742173.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/upload_638845623958742173.jpg",
+      "AssetFile": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845623958742173.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 12:46:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tuVgxWXkYP0+O2YKkHDPvsvFCszVss+XSuvLGUSqV0g="
+        }
+      ]
+    }
+  ]
 }

@@ -130,6 +130,37 @@
         }
       }
     },
+    "/api/About/upload-base64": {
+      "post": {
+        "tags": [
+          "About"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Base64ImageDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Base64ImageDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Base64ImageDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Auth/profile": {
       "get": {
         "tags": [
@@ -783,6 +814,16 @@
             "items": {
               "type": "string"
             },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Base64ImageDto": {
+        "type": "object",
+        "properties": {
+          "base64Image": {
+            "type": "string",
             "nullable": true
           }
         },
