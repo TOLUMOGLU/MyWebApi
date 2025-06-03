@@ -38,7 +38,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowLocalhost",
         policy =>
         {
-            policy.WithOrigins("http://localhost:8080") // frontend portun neyse onu yaz
+            policy.WithOrigins("http://localhost:5173") // frontend portun neyse onu yaz
                   .AllowAnyHeader()
                   .AllowAnyMethod();
         });

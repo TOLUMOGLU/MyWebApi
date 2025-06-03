@@ -180,3 +180,4 @@ C:\Users\AzimeTolumoğlu\Desktop\MyWebApi\my-web-api\my-web-api\obj\Debug\net8.0
 C:\Users\AzimeTolumoğlu\Desktop\MyWebApi\my-web-api\my-web-api\obj\Debug\net8.0\ref\my-web-api.dll
 C:\Users\AzimeTolumoğlu\Desktop\MyWebApi\my-web-api\my-web-api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\AzimeTolumoğlu\Desktop\MyWebApi\my-web-api\my-web-api\obj\Debug\net8.0\my-web-api.sourcelink.json
+C:\Users\AzimeTolumoğlu\Desktop\MyWebApi\my-web-api\my-web-api\bin\Debug\net8.0\my-web-api.staticwebassets.runtime.json

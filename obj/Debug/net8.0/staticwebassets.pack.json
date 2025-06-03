@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845601758645324.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638845601758645324.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845602538827963.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638845602538827963.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845602701372285.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638845602701372285.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845604592262692.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638845604592262692.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845604804931188.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638845604804931188.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845606619905034.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638845606619905034.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845608013033726.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638845608013033726.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845608052669105.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638845608052669105.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845610238108206.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638845610238108206.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845610373925139.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638845610373925139.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845616256093323.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638845616256093323.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638845623958742173.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638845623958742173.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.my-web-api.props",
+      "PackagePath": "build\\my-web-api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.my-web-api.props",
+      "PackagePath": "buildMultiTargeting\\my-web-api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.my-web-api.props",
+      "PackagePath": "buildTransitive\\my-web-api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.my-web-api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.my-web-api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

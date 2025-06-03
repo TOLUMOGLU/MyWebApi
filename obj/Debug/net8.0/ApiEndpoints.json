@@ -79,6 +79,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "my_web_api.Controllers.AboutController",
+    "Method": "UploadBase64Image",
+    "RelativePath": "api/About/upload-base64",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "my_web_api.Controllers.AboutController\u002BBase64ImageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "my_web_api.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
@@ -338,7 +354,7 @@
   {
     "ContainingType": "my_web_api.Controllers.ProjectController",
     "Method": "PutProject",
-    "RelativePath": "api/Project",
+    "RelativePath": "api/Project/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -346,7 +362,7 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       },
       {
         "Name": "uptadeProject",
@@ -359,7 +375,7 @@
   {
     "ContainingType": "my_web_api.Controllers.ProjectController",
     "Method": "DeleteProject",
-    "RelativePath": "api/Project",
+    "RelativePath": "api/Project/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -367,7 +383,7 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
