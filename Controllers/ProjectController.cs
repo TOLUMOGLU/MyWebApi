@@ -1,7 +1,11 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using System.Text.Json;
+using System.Text.RegularExpressions;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using my_web_api.Data;
 using my_web_api.Models;
+using static my_web_api.Controllers.AboutController;
 
 namespace my_web_api.Controllers
 {
@@ -14,6 +18,7 @@ namespace my_web_api.Controllers
         {
             _context = context;
         }
+
         [HttpGet]
         public IActionResult GetProject()
         {
@@ -21,6 +26,7 @@ namespace my_web_api.Controllers
             return Ok(project);
         }
 
+        [Authorize]
         [HttpPost]
         public IActionResult PostProject([FromBody] Project newProject)
         {
@@ -33,6 +39,7 @@ namespace my_web_api.Controllers
             return CreatedAtAction(nameof(GetProject), new { id = newProject.projectId }, newProject);
         }
 
+        [Authorize]
         [HttpPut("{id}")]
         public IActionResult PutProject(int id , [FromBody] Project uptadeProject)
         {
@@ -52,6 +59,7 @@ namespace my_web_api.Controllers
             return Ok();
         }
 
+        [Authorize]
         [HttpDelete("{id}")]
         public IActionResult DeleteProject(int id) 
         {
@@ -65,5 +73,6 @@ namespace my_web_api.Controllers
             _context.SaveChanges();
             return Ok($"ID'si {id} olan kayıt başarıyla silindi.");
         }
+
     }
 }

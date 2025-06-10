@@ -80,18 +80,12 @@
   },
   {
     "ContainingType": "my_web_api.Controllers.AboutController",
-    "Method": "UploadBase64Image",
-    "RelativePath": "api/About/upload-base64",
+    "Method": "UploadImage",
+    "RelativePath": "api/About/upload-image",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "dto",
-        "Type": "my_web_api.Controllers.AboutController\u002BBase64ImageDto",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -323,6 +317,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "my_web_api.Controllers.ImageController",
+    "Method": "UploadImage",
+    "RelativePath": "api/Image/upload-image",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

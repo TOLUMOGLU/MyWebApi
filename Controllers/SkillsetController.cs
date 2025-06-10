@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using my_web_api.Data;
 using my_web_api.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace my_web_api.Controllers
 {
@@ -28,6 +29,7 @@ namespace my_web_api.Controllers
             return skillset;
         }
 
+        [Authorize]
         [HttpPost]
         public async Task<ActionResult<Skillset>> CreateSkillset(Skillset newSkillset)
         {
@@ -37,6 +39,7 @@ namespace my_web_api.Controllers
             return CreatedAtAction(nameof(GetSkillset), new { id = newSkillset.Id }, newSkillset);
         }
 
+        [Authorize]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateSkillset(int id, Skillset updatedSkillset)
         {
@@ -58,6 +61,7 @@ namespace my_web_api.Controllers
             return NoContent();
         }
 
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteSkillset(int id)
         {

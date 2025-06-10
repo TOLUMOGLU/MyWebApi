@@ -3,6 +3,7 @@ using System.Text;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using my_web_api.Data;
+using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
@@ -38,7 +39,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowLocalhost",
         policy =>
         {
-            policy.WithOrigins("http://localhost:5173") // frontend portun neyse onu yaz
+            policy.WithOrigins("http://localhost:8080") // frontend portun neyse onu yaz
                   .AllowAnyHeader()
                   .AllowAnyMethod();
         });
@@ -66,6 +67,14 @@ app.UseCors("AllowLocalhost");
 app.UseAuthentication();
 
 app.UseAuthorization();
+
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(
+        Path.Combine(Directory.GetCurrentDirectory(), "wwwroot")),
+    RequestPath = ""
+});
+
 
 app.MapControllers();
 
