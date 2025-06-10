@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using my_web_api.Data;
 using my_web_api.Models;
@@ -24,6 +25,7 @@ namespace my_web_api.Controllers
             return Ok(experience);
         }
 
+        [Authorize]
         [HttpPost]
         public IActionResult PostExperience([FromBody] Experience newExperience)
         {
@@ -36,6 +38,7 @@ namespace my_web_api.Controllers
             return CreatedAtAction(nameof(GetExperience), new { id = newExperience.experienceId }, newExperience);
         }
 
+        [Authorize]
         [HttpPut("{id}")]
         public IActionResult PutExperience(int id, [FromBody] Experience updatedExperience)
         {
@@ -62,6 +65,7 @@ namespace my_web_api.Controllers
             return Ok(existingExperience);
         }
 
+        [Authorize]
         [HttpDelete("{id}")]
         public IActionResult DeleteExperience(int id)
         {

@@ -49,6 +49,86 @@
       "PackagePath": "staticwebassets\\uploads\\upload_638845623958742173.jpg"
     },
     {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638851430809641065.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638851430809641065.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638851430915814153.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638851430915814153.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638851433988274572.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638851433988274572.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638851434249224608.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638851434249224608.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638851435315966219.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638851435315966219.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638851435746778933.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638851435746778933.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638851440751843465.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638851440751843465.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638851446880290376.ico",
+      "PackagePath": "staticwebassets\\uploads\\upload_638851446880290376.ico"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638851448766760558.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638851448766760558.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638851449086336709.ico",
+      "PackagePath": "staticwebassets\\uploads\\upload_638851449086336709.ico"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638851451236042912.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638851451236042912.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638851456688245357.png",
+      "PackagePath": "staticwebassets\\uploads\\upload_638851456688245357.png"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638851456765522999.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638851456765522999.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638851461728637369.png",
+      "PackagePath": "staticwebassets\\uploads\\upload_638851461728637369.png"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638851465826300415.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638851465826300415.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638851465887445540.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638851465887445540.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638851466046854582.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638851466046854582.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638851466107321664.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638851466107321664.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638851467685927055.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638851467685927055.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638851602152890687.png",
+      "PackagePath": "staticwebassets\\uploads\\upload_638851602152890687.png"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.my-web-api.props",
       "PackagePath": "build\\my-web-api.props"
     },

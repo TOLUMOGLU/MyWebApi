@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using my_web_api.Data;
 using my_web_api.Models;
 using System.Linq;
+using System.Text.Json;
 using System.Text.RegularExpressions;
 
 namespace my_web_api.Controllers
@@ -33,6 +35,7 @@ namespace my_web_api.Controllers
             return Ok(about);
         }
 
+        [Authorize]
         [HttpPost]
         public IActionResult PostAbout([FromBody] AboutMe newAbout)
         {
@@ -46,6 +49,7 @@ namespace my_web_api.Controllers
             return CreatedAtAction(nameof(GetAboutById), new { id = newAbout.aboutMeId }, newAbout);
         }
 
+        [Authorize]
         [HttpPut("{id}")]
         public IActionResult PutAbout(int id, [FromBody] AboutMe updatedAbout)
         {
@@ -64,6 +68,7 @@ namespace my_web_api.Controllers
             return Ok(existingAbout);
         }
 
+        [Authorize]
         [HttpDelete("{id}")]
         public IActionResult DeleteAbout(int id)
         {
@@ -76,41 +81,5 @@ namespace my_web_api.Controllers
 
             return Ok($"ID'si {id} olan kayıt başarıyla silindi.");
         }
-
-        public class Base64ImageDto
-        {
-            public string base64Image { get; set; }
-        }
-
-        [HttpPost("upload-base64")]
-        public IActionResult UploadBase64Image([FromBody] Base64ImageDto dto)
-        {
-            if (string.IsNullOrEmpty(dto.base64Image))
-                return BadRequest("Görsel verisi boş.");
-
-            try
-            {
-                // "data:image/png;base64,..." formatını ayıklama
-                var base64Data = Regex.Match(dto.base64Image, @"data:image/(?<type>.+?);base64,(?<data>.+)").Groups["data"].Value;
-                var imageBytes = Convert.FromBase64String(base64Data);
-
-                var fileName = $"upload_{DateTime.Now.Ticks}.jpg";
-                var filePath = Path.Combine("wwwroot", "uploads", fileName);
-
-                var folder = Path.GetDirectoryName(filePath);
-                if (!Directory.Exists(folder))
-                    Directory.CreateDirectory(folder);
-
-                System.IO.File.WriteAllBytes(filePath, imageBytes);
-
-                var imageUrl = $"/uploads/{fileName}";
-                return Ok(new { imageUrl });
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"Görsel işlenemedi: {ex.Message}");
-            }
-        }
-
     }
 }

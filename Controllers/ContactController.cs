@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using my_web_api.Data;
 using my_web_api.Models;
@@ -31,6 +32,7 @@ namespace my_web_api.Controllers
             return Ok(message);
         }
 
+        [Authorize]
         [HttpPost]
         public IActionResult Post([FromBody] ContactMessage newMessage)
         {
@@ -44,6 +46,7 @@ namespace my_web_api.Controllers
             return CreatedAtAction(nameof(GetById), new { id = newMessage.contactMessageId }, newMessage);
         }
 
+        [Authorize]
         [HttpPut("{id}")]
         public IActionResult Put(int id, [FromBody] ContactMessage updatedMessage)
         {
@@ -62,6 +65,7 @@ namespace my_web_api.Controllers
             return Ok(existing);
         }
 
+        [Authorize]
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
