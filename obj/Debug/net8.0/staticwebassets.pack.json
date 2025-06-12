@@ -129,6 +129,22 @@
       "PackagePath": "staticwebassets\\uploads\\upload_638851602152890687.png"
     },
     {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638851651431471664.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638851651431471664.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638851651486697382.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638851651486697382.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638851652463565640.png",
+      "PackagePath": "staticwebassets\\uploads\\upload_638851652463565640.png"
+    },
+    {
+      "Id": "C:\\Users\\AzimeTolumoğlu\\Desktop\\MyWebApi\\my-web-api\\my-web-api\\wwwroot\\uploads\\upload_638851687221575204.jpg",
+      "PackagePath": "staticwebassets\\uploads\\upload_638851687221575204.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.my-web-api.props",
       "PackagePath": "build\\my-web-api.props"
     },

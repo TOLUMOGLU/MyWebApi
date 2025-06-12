@@ -79,16 +79,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "my_web_api.Controllers.AboutController",
-    "Method": "UploadImage",
-    "RelativePath": "api/About/upload-image",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "my_web_api.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
@@ -402,7 +392,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "my_web_api.Models.Skillset",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[my_web_api.Models.Skillset, my-web-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

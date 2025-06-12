@@ -19,14 +19,14 @@ namespace my_web_api.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<Skillset>> GetSkillset()
+        public async Task<ActionResult<IEnumerable<Skillset>>> GetSkillset()
         {
-            var skillset = await _context.Skillsets.FirstOrDefaultAsync();
-            if (skillset == null)
+            var skillsets = await _context.Skillsets.ToListAsync();
+            if (skillsets == null || !skillsets.Any())
             {
                 return NotFound();
             }
-            return skillset;
+            return Ok(skillsets);
         }
 
         [Authorize]
