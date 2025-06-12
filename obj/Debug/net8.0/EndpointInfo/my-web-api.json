@@ -130,18 +130,6 @@
         }
       }
     },
-    "/api/About/upload-image": {
-      "post": {
-        "tags": [
-          "About"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api/Auth/profile": {
       "get": {
         "tags": [
@@ -645,17 +633,26 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Skillset"
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Skillset"
+                  }
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Skillset"
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Skillset"
+                  }
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Skillset"
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Skillset"
+                  }
                 }
               }
             }

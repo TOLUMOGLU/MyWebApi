@@ -30,3 +30,7 @@ wwwroot\uploads\upload_638851466046854582.jpg
 wwwroot\uploads\upload_638851466107321664.jpg
 wwwroot\uploads\upload_638851467685927055.jpg
 wwwroot\uploads\upload_638851602152890687.png
+wwwroot\uploads\upload_638851651431471664.jpg
+wwwroot\uploads\upload_638851651486697382.jpg
+wwwroot\uploads\upload_638851652463565640.png
+wwwroot\uploads\upload_638851687221575204.jpg
